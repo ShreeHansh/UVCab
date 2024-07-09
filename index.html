@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UV Cabs</title>
+  <!-- favicons Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+  <meta name="description"
+    content="UV Cabs is a very modern and versatile online taxi services. It is specially for cab services, car rental, taxi booking, online taxi services, transport, taxi driver, taxi rent service, car repair shop, auto mechanic service and all other online car & taxi booking businesses." />
+
+  <!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+<link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+<link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+<link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+<link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+<link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+<link rel="stylesheet" href="assets/vendors/taxiz-icons/style.css" />
+<link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+<link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+<!-- template styles -->
+<link rel="stylesheet" href="assets/css/taxiz.css" />
+</head>
+
+<body class="custom-cursor">
+
+  <div class="custom-cursor__cursor"></div>
+  <div class="custom-cursor__cursor-two"></div>
+
+  <div class="preloader">
+    <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+  </div>
+  <!-- /.preloader -->
+  <div class="page-wrapper">
+<div class="topbar topbar--two">
+    <div class="container-fluid">
+        <div class="topbar__inner">
+            <div class="topbar__inner__bg" style="background-image: url(assets/images/shapes/nav-shape-bg-2-1.png);"></div><!-- /.topbar__inner__bg -->
+            <ul class="list-unstyled topbar__info">
+                <li>
+                    <span class="topbar__info__icon"><i class="icon-paper-plane"></i></span>
+                    <a href="mailto:uvcab.info@gmail.com">uvcab.info@gmail.com</a>
+                </li>
+                <li>
+                    <span class="topbar__info__icon topbar__info__icon--location"><i
+                            class="icon-maps-and-flags"></i></span>
+                    <a href="https://www.google.com/maps/@23.506657,90.3443647,7z?entry=ttu">Hirji Mistri Road, Opp Kotak Mahindra Bank, Makwana Bilding Off no.1 </a>
+                </li>
+            </ul><!-- /.list-unstyled topbar__info -->
+            <div class="topbar__right">
+                <div class="topbar__language" style="display: none;">
+                    <label class="sr-only" for="language-select-header">select language</label><!-- /.sr-only -->
+                    <select class="selectpicker" id="language-select-header">
+                        <option value="english">English</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="banglades">Bangladesh</option>
+                        <option value="Pakistan">Pakistan</option>
+                    </select>
+                </div><!-- /.topbar__language -->
+                <div class="topbar__login">
+                    <span class="topbar__login__icon">
+                        <i class="icon-user"></i>
+                    </span><!-- /.topbar__login__icon -->
+                    <div class="topbar__login__inner">
+                        <a href="login.html" class="topbar__login__text">log In</a>/
+                        <a href="login.html" class="topbar__login__text">Register</a>
+                    </div><!-- /.topbar__login__inner -->
+                </div><!-- /.topbar__login -->
+            </div><!-- /.topbar__right -->
+        </div><!-- /.topbar__inner -->
+    </div><!-- /.container-fluid -->
+</div><!-- /.topbar -->
+
+<header class="main-header main-header--three sticky-header sticky-header--normal">
+    <div class="container-fluid">
+        <div class="main-header__inner">
+            <div class="main-header__logo logo-retina">
+                <a href="index.html">
+                    <img src="assets/images/UVCab.png" alt="Taxiz HTML" width="100">
+                </a>
+            </div><!-- /.main-header__logo -->
+            <div class="main-header__right">
+                <nav class="main-header__nav main-menu">
+                    <ul class="main-menu__list">
+                        <li class="dropdown megamenu">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="index.html">Services</a>
+                            <ul>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="services-carousel.html">Services Carousel</a></li>
+                                <li><a href="service-d-city-transport.html">city transport</a></li>
+                                <li><a href="service-d-regular-transport.html">regular transport</a></li>
+                                <li><a href="service-d-business-tour.html">business tour</a></li>
+                                <li><a href="service-d-shuttle-service.html">shuttle service</a></li>
+                                <li><a href="service-d-airport-transport.html">airport transport</a></li>
+                                <li><a href="service-d-holiday-tour.html">Holiday tour</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="index.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.main-header__nav -->
+                <div class="mobile-nav__btn mobile-nav__toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </div><!-- /.mobile-nav__toggler -->
+                <a href="#" class="search-toggler main-header__search">
+                    <i class="icon-search" aria-hidden="true"></i>
+                    <span class="sr-only">Search</span>
+                </a><!-- /.search-toggler -->
+                <a href="cart.html" class="main-header__cart">
+                    <i class="icon-cart" aria-hidden="true"></i>
+                    <span class="sr-only">Cart</span>
+                </a><!-- /.search-toggler -->
+                <div class="main-header__call">
+                    <span class="main-header__call__icon">
+                        <i class="icon-telephone-call"></i>
+                    </span><!-- /.main-header__call__icon -->
+                    <div class="main-header__call__content">
+                        <p class="main-header__call__title">emargency call us</p><!-- /.main-header__call__title -->
+                        <a href="tel:+918735944745" class="main-header__call__number">+91 8735944745</a>
+                        <!-- /.main-header__call__number -->
+                    </div><!-- /.main-header__call__content -->
+                </div><!-- /.main-header__call -->
+            </div><!-- /.main-header__right -->
+        </div><!-- /.main-header__inner -->
+    </div><!-- /.container-fluid -->
+</header><!-- /.main-header -->
+
+<section class="main-slider-three" id="home">
+    <div class="main-slider-three__inner">
+        <div class="social-links">
+            <a href="https://facebook.com">
+	<i class="fab fa-facebook-f" aria-hidden="true"></i>
+	<span class="sr-only">Facebook</span>
+</a>
+<a href="https://twitter.com">
+	<i class="fab fa-twitter" aria-hidden="true"></i>
+	<span class="sr-only">Twitter</span>
+</a>
+<a href="https://instagram.com">
+	<i class="fab fa-instagram" aria-hidden="true"></i>
+	<span class="sr-only">Instagram</span>
+</a>
+<a href="https://youtube.com">
+	<i class="fab fa-youtube" aria-hidden="true"></i>
+	<span class="sr-only">Youtube</span>
+</a>
+        </div><!-- /.social-links -->
+        <div class="main-slider-three__carousel taxiz-owl__carousel owl-carousel" data-owl-options='{
+            "margin": 0,
+            "loop": true,
+            "animateIn": "fadeIn",
+            "animateOut": "fadeOut",
+            "items": 1,
+            "autoplay": true,
+            "smartSpeed": 1000,
+            "nav": false,
+            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+            "dots": true
+            }'>
+            <div class="item">
+                <div class="main-slider-three__item">
+                    <div class="main-slider-three__bg"
+                        style="background-image: url(assets/images/backgrounds/ertiga-1.jpg);">
+                    </div><!-- /.main-slider-three__bg -->
+                    <div class="main-slider-three__container container">
+                        <div class="row gutter-y-40 align-items-center">
+                            <div class="col-xl-12 col-lg-10 col-md-11">
+                                <div class="main-slider-three__content">
+                                    <div class="main-slider-three__top">
+                                        <div class="main-slider-three__sub-title-shape"></div>
+                                        <!-- /.main-slider-three__sub-title-shape -->
+                                        <h5 class="main-slider-three__sub-title">Your Road, Your Rules!</h5>
+                                        <!-- /.slider-sub-title -->
+                                    </div><!-- /.main-slider-three__top -->
+                                    <h2 class="main-slider-three__title">One Way <br> Taxi Service</h2>
+                                    <!-- /.slider-title -->
+                                    <div class="main-slider-three__button">
+                                        <a href="taxi-booking.html"
+                                            class="main-slider-three__btn taxiz-btn taxiz-btn--border"><span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                                            <span>book now</span></a>
+                                        <!-- slider-btn -->
+                                    </div><!-- /.main-slider-three__button -->
+                                </div><!-- /.main-slider-three__content -->
+                            </div><!-- /.col-xl-12 col-lg-10 col-md-11 -->
+                        </div><!-- /.row gutter-y-40 -->
+                    </div><!-- /.container -->
+                </div><!-- /.main-slider-three__item -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="main-slider-three__item">
+                    <div class="main-slider-three__bg"
+                        style="background-image: url(assets/images/backgrounds/ertiga-2.jpg);">
+                    </div><!-- /.main-slider-three__bg -->
+                    <div class="main-slider-three__container container">
+                        <div class="row gutter-y-40 align-items-center">
+                            <div class="col-xl-12 col-lg-10 col-md-11">
+                                <div class="main-slider-three__content">
+                                    <div class="main-slider-three__top">
+                                        <div class="main-slider-three__sub-title-shape"></div>
+                                        <!-- /.main-slider-three__sub-title-shape -->
+                                        <h5 class="main-slider-three__sub-title">Your Road, Your Rules!</h5>
+                                        <!-- /.slider-sub-title -->
+                                    </div><!-- /.main-slider-three__top -->
+                                    <h2 class="main-slider-three__title">Your first choice for <br> traveling outstation anywhere
+                                    </h2>
+                                    <!-- /.slider-title -->
+                                    <div class="main-slider-three__button">
+                                        <a href="taxi-booking.html"
+                                            class="main-slider-three__btn taxiz-btn taxiz-btn--border"><span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                                            <span>book now</span></a>
+                                        <!-- slider-btn -->
+                                    </div><!-- /.main-slider-three__button -->
+                                </div><!-- /.main-slider-three__content -->
+                            </div><!-- /.col-xl-12 col-lg-10 col-md-11 -->
+                        </div><!-- /.row gutter-y-40 -->
+                    </div><!-- /.container -->
+                </div><!-- /.main-slider-three__item -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="main-slider-three__item">
+                    <div class="main-slider-three__bg"
+                        style="background-image: url(assets/images/backgrounds/ertiga-3.jpg);">
+                    </div><!-- /.main-slider-three__bg -->
+                    <div class="main-slider-three__container container">
+                        <div class="row gutter-y-40 align-items-center">
+                            <div class="col-xl-12 col-lg-10 col-md-11">
+                                <div class="main-slider-three__content">
+                                    <div class="main-slider-three__top">
+                                        <div class="main-slider-three__sub-title-shape"></div>
+                                        <!-- /.main-slider-three__sub-title-shape -->
+                                        <h5 class="main-slider-three__sub-title">Your Road, Your Rules!</h5>
+                                        <!-- /.slider-sub-title -->
+                                    </div><!-- /.main-slider-three__top -->
+                                    <h2 class="main-slider-three__title">Affordable <br> Taxi Service</h2>
+                                    <!-- /.slider-title -->
+                                    <div class="main-slider-three__button">
+                                        <a href="taxi-booking.html"
+                                            class="main-slider-three__btn taxiz-btn taxiz-btn--border"><span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                                            <span>book now</span></a>
+                                        <!-- slider-btn -->
+                                    </div><!-- /.main-slider-three__button -->
+                                </div><!-- /.main-slider-three__content -->
+                            </div><!-- /.col-xl-12 col-lg-10 col-md-11 -->
+                        </div><!-- /.row gutter-y-40 -->
+                    </div><!-- /.container -->
+                </div><!-- /.main-slider-three__item -->
+            </div><!-- /.item -->
+        </div><!-- /.main-slider-three__carousel -->
+    </div><!-- /.main-slider-three__inner -->
+    <div class="main-slider-three__custome-dots"></div><!-- /.main-slider-three__custome-dots -->
+</section><!-- /.main-slider-three -->
+
+<section class="services-two section-space-bottom" id="bookTaxi" style="height: 320px;">
+    <div class="services-two__bg" style="background-image: url(assets/images/shapes/services-bg-2-1.png);"></div>
+    <!-- /.services-two__bg -->
+    <div class="container">
+        <div class="taxi-booking taxi-booking--three">
+          <form class="taxi-booking__form">
+        <div class="taxi-booking__form__bg" style="background-image: url(assets/images/shapes/taxi-booking-form-bg-1-2.png);"></div><!-- /.taxi-booking__form__bg -->
+        <div class="taxi-booking__form__grid">
+            <div class="taxi-booking__form__control">
+                <label for="pick_up_location">pick up location</label>
+                <div class="taxi-booking__form__field">
+                    <input type="text" name="location" id="pick_up_location" placeholder="Type Location">
+                    <span class="taxi-booking__form__icon">
+                        <i class="icon-location"></i>
+                    </span><!-- /.taxi-booking__form__icon -->
+                </div><!-- /.taxi-booking__form__field -->
+            </div><!-- /.taxi-booking__form__control -->
+            <div class="taxi-booking__form__control">
+                <label for="drop_off_location">drop off location</label>
+                <div class="taxi-booking__form__field">
+                    <input type="text" name="location" id="drop_off_location" placeholder="Type Location">
+                    <span class="taxi-booking__form__icon">
+                        <i class="icon-location"></i>
+                    </span><!-- /.taxi-booking__form__icon -->
+                </div><!-- /.taxi-booking__form__field -->
+            </div><!-- /.taxi-booking__form__control -->
+            <div class="taxi-booking__form__control">
+                <label for="passengers">passengers</label>
+                <div class="taxi-booking__form__field">
+                    <input type="text" name="passenger" id="passengers" placeholder="Passengers">
+                    <span class="taxi-booking__form__icon">
+                        <i class="icon-user"></i>
+                    </span><!-- /.taxi-booking__form__icon -->
+                </div><!-- /.taxi-booking__form__field -->
+            </div><!-- /.taxi-booking__form__control -->
+            <div class="taxi-booking__form__control">
+                <label>taxi type</label>
+                <div class="taxi-booking__form__field">
+                    <select class="selectpicker" aria-label="Default select example">
+                        <option selected="">choose taxi</option>
+                        <option value="1">city transport</option>
+                        <option value="2">Holiday tour</option>
+                        <option value="3">business tour</option>
+                        <option value="4">airport transport</option>
+                        <option value="5">shuttle service</option>
+                        <option value="6">regular transport</option>
+                    </select>
+                </div><!-- /.taxi-booking__form__field -->
+            </div><!-- /.taxi-booking__form__control -->
+            <div class="taxi-booking__form__control">
+                <label for="datepicker">pick up date</label>
+                <div class="taxi-booking__form__field">
+                    <input type="text" name="date" placeholder="Select Date" id="datepicker"
+                        class="taxiz-datepicker">
+                    <span class="taxi-booking__form__icon">
+                        <i class="icon-calendar"></i>
+                    </span><!-- /.taxi-booking__form__icon -->
+                </div><!-- /.taxi-booking__form__field -->
+            </div><!-- /.taxi-booking__form__control -->
+            <div class="taxi-booking__form__control">
+                <label>select driver</label>
+                <div class="taxi-booking__form__field taxi-booking__form__field--driver">
+                    <select class="selectpicker" aria-label="Default select example">
+                        <option selected="">select driver</option>
+                        <option value="1">Russell P. Butler</option>
+                        <option value="2">Sarah Albert</option>
+                        <option value="3">Sabrina Melton</option>
+                        <option value="4">Adolfo Carone</option>
+                        <option value="5">Kendra Mcgee</option>
+                        <option value="6">Kevin Martin</option>
+                    </select>
+                </div><!-- /.taxi-booking__form__field -->
+            </div><!-- /.taxi-booking__form__control -->
+            <div class="taxi-booking__form__control taxi-booking__form__control--btn">
+                <button type="submit" class="taxi-booking__form__btn taxiz-btn">
+                    <span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                    <span>book taxi now</span>
+                </button><!-- /.taxiz-btn -->
+            </div><!-- /.taxi-booking__form__control -->
+        </div><!-- /.taxi-booking__form__grid -->
+        <img src="assets/images/resources/taxi-booking-car-1-1.png" alt="car" class="taxi-booking__form__car">
+        <div class="taxi-booking__form__shape">
+            <div class="taxi-booking__form__shape__one"></div><!-- /.taxi-booking__form__shape__one -->
+            <div class="taxi-booking__form__shape__two"></div><!-- /.taxi-booking__form__shape__one -->
+        </div><!-- /.taxi-booking__shape -->
+          </form><!-- /.taxi-booking__form -->
+        </div><!-- /.taxi-booking -->
+    </div><!-- /.container -->
+</section><!-- /.services-two section-space-bottom -->
+
+<section class="about-three section-space-top" id="about">
+    <div class="container">
+        <div class="row gutter-y-60">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
+                <div class="about-three__image">
+                    <div class="about-three__image__inner">
+                        <img src="assets/images/about/about-3-1.jpg" alt="about">
+                        <div class="about-three__experience">
+                            <h4 class="about-three__experience__year">15+</h4><!-- /.about-three__experience__year -->
+                            <p class="about-three__experience__text">years of <br> experience</p>
+                            <!-- /.about-three__experience__text -->
+                        </div><!-- /.about-one__experience -->
+                    </div><!-- /.about-three__image__inner -->
+                    <div class="about-three__image__shape"
+                        style="background-image: url(assets/images/shapes/about-shape-3-1.png);"></div>
+                    <!-- /.about-three__image__shape -->
+                </div><!-- /.about-three__image -->
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1500ms">
+                <div class="about-three__content">
+                    <div class="sec-title @@extraClassName">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">Welcome to UV Cabs</h6><!-- /.sec-title__tagline -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">providing door-to-door  <br> online taxi service</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+                    <div class="about-three__text-box">
+                        <p class="about-three__text">UV Cabs is one of the finest taxi service company in Jamnagar. We are known for our superior customer service and professional approach at all times and across all major cities.</p><!-- /.about-three__text -->
+                    </div><!-- /.about-three__text-box -->
+                    <div class="about-three__inner">
+                        <div class="taxiz-info__item">
+                            <div class="taxiz-info__item__icon">
+                                <i class="icon-car"></i>
+                            </div><!-- /.taxiz-info__item__icon -->
+                            <h4 class="taxiz-info__item__title">Favorite Car <br> Selection</h4>
+                            <!-- /.taxiz-info__item__title -->
+                        </div><!-- /.taxiz-info__item -->
+                        <div class="taxiz-info__item">
+                            <div class="taxiz-info__item__icon">
+                                <i class="icon-clock"></i>
+                            </div><!-- /.taxiz-info__item__icon -->
+                            <h4 class="taxiz-info__item__title">24x7 Customer <br> Support</h4>
+                            <!-- /.taxiz-info__item__title -->
+                        </div><!-- /.taxiz-info__item -->
+                        <div class="taxiz-info__item">
+                            <div class="taxiz-info__item__icon">
+                                <i class="icon-maps-and-flags"></i>
+                            </div><!-- /.taxiz-info__item__icon -->
+                            <h4 class="taxiz-info__item__title">One Way/Round Trip <br> Taxi Service</h4>
+                            <!-- /.taxiz-info__item__title -->
+                        </div><!-- /.taxiz-info__item -->
+                        <div class="taxiz-info__item">
+                            <div class="taxiz-info__item__icon">
+                                <i class="icon-price-tag-1"></i>
+                            </div><!-- /.taxiz-info__item__icon -->
+                            <h4 class="taxiz-info__item__title">Fixed Price & Bonus <br> System</h4>
+                            <!-- /.taxiz-info__item__title -->
+                        </div><!-- /.taxiz-info__item -->
+                    </div><!-- /.about-three__inner -->
+                    <div class="about-three__founder">
+                        <div class="about-three__founder__info">
+                            <img src="assets/images/about/about-founder-3-1.png" alt="Vanrajbhai Der"
+                                class="about-three__founder__image">
+                            <div class="about-three__founder__content">
+                                <h4 class="about-three__founder__name">Vanrajbhai Der</h4>
+                                <!-- /.about-three__founder__name -->
+                                <p class="about-three__founder__designation">founder</p>
+                                <!-- /.about-three__founder__designation -->
+                            </div><!-- /.about-three__founder__content -->
+                        </div><!-- /.about-three__founder__info -->
+                        <img src="assets/images/shapes/about-founder-sign-3-1.png" alt="sign" class="about-three__founder__sign">
+                    </div><!-- /.about-three__founder -->
+                </div><!-- /.about-three__content -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row gutter-y-40 -->
+    </div><!-- /.container -->
+    <section class="funfact-one">
+    <div class="container">
+        <div class="funfact-one__inner">
+            <div class="funfact-one__inner__bg"
+                style="background-image: url(assets/images/shapes/funfact-inner-bg-1-1.png);"></div>
+            <!-- /.funfact-one__inner__bg -->
+            <div class="funfact-one__row row gutter-y-50">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="funfact-one__item">
+                        <div class="funfact-one__item__icon">
+                            <i class="icon-electric-car"></i>
+                        </div><!-- /.funfact-one__item__icon -->
+                        <h3 class="funfact-one__item__number count-box">
+                            <span class="count-text" data-stop="32.5" data-speed="1500"></span>
+                            <span>k+</span>
+                        </h3>
+                        <h4 class="funfact-one__item__title">Special Vehicles</h4><!-- /.funfact-one__item__title -->
+                    </div><!-- /.funfact-one__item -->
+                </div><!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                    <div class="funfact-one__item">
+                        <div class="funfact-one__item__icon">
+                            <i class="icon-location-1"></i>
+                        </div><!-- /.funfact-one__item__icon -->
+                        <h3 class="funfact-one__item__number count-box">
+                            <span class="count-text" data-stop="13.8" data-speed="1500"></span>
+                            <span>k+</span>
+                        </h3>
+                        <h4 class="funfact-one__item__title">People Pickup</h4><!-- /.funfact-one__item__title -->
+                    </div><!-- /.funfact-one__item -->
+                </div><!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                    <div class="funfact-one__item">
+                        <div class="funfact-one__item__icon">
+                            <i class="icon-route"></i>
+                        </div><!-- /.funfact-one__item__icon -->
+                        <h3 class="funfact-one__item__number count-box">
+                            <span class="count-text" data-stop="26.6" data-speed="1500"></span>
+                            <span>k+</span>
+                        </h3>
+                        <h4 class="funfact-one__item__title">Road Trips Done</h4><!-- /.funfact-one__item__title -->
+                    </div><!-- /.funfact-one__item -->
+                </div><!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                    <div class="funfact-one__item">
+                        <div class="funfact-one__item__icon">
+                            <i class="icon-rating"></i>
+                        </div><!-- /.funfact-one__item__icon -->
+                        <h3 class="funfact-one__item__number count-box">
+                            <span class="count-text" data-stop="65.2" data-speed="1500"></span>
+                            <span>k+</span>
+                        </h3>
+                        <h4 class="funfact-one__item__title">Satisfied Clients</h4><!-- /.funfact-one__item__title -->
+                    </div><!-- /.funfact-one__item -->
+                </div><!-- /.col-lg-3 col-sm-6 -->
+            </div><!-- /.funfact-one__row row -->
+        </div><!-- /.funfact-one__inner -->
+    </div><!-- /.container -->
+</section><!-- /.funfact-one -->
+</section><!-- /.about-three section-space-top -->
+
+<section class="services-three" id="services">
+    <div class="services-three__bg" style="background-image: url(assets/images/shapes/services-bg-3-1.png);"></div>
+    <!-- /.services-three__bg -->
+    <div class="container">
+        <div class="services-three__top">
+            <div class="row gutter-y-50 align-items-center">
+                <div class="col-lg-8">
+                    <div class="sec-title @@extraClassName">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">our services</h6><!-- /.sec-title__tagline -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">We're Partner Of <br> Your Business</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+                </div><!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    <div class="services-three__custome-navs"></div><!-- /.services-three__custom-navs -->
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row gutter-y-40 -->
+        </div><!-- /.services-three__top -->
+    </div><!-- /.container -->
+    <div class="services-three__carousel-wrapper">
+        <div class="services-three__container container">
+            <div class="services-three__inner">
+                <div class="services-three__inner__bg"
+                    style="background-image: url(assets/images/shapes/services-inner-bg-3-1.png);"></div>
+                <!-- /.services-three__inner__bg -->
+            </div><!-- /.services-three__inner -->
+        </div><!-- /.services-three__container container -->
+        <div class="services-three__carousel taxiz-owl__carousel taxiz-owl__carousel--basic-nav owl-carousel owl-theme"
+            data-owl-options='{
+            "items": 1,
+            "margin": 10,
+            "loop": true,
+            "smartSpeed": 700,
+            "navContainer": ".services-three__custome-navs",
+            "nav": true,
+            "dots": false,
+            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+            "autoplay": true,
+            "responsive": {
+                "0": {
+                    "items": 1,
+                    "margin": 10
+                },
+                "576": {
+                    "items": 1,
+                    "margin": 30
+                },
+                "768": {
+                    "items": 2,
+                    "margin": 30
+                },
+                "992": {
+                    "items": 3,
+                    "margin": 30
+                },
+                "1200": {
+                    "items": 3,
+                    "margin": 30
+                },
+                "1400": {
+                    "items": 4,
+                    "margin": 30
+                }
+            }
+        }'>
+            <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                <div class="service-card" style="background-image: url(assets/images/services/service-1-1.jpg);">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title"><a href="service-d-regular-transport.html">regular transport</a>
+                        </h3><!-- /.service-card__title -->
+                        <a href="service-d-regular-transport.html" class="service-card__link">
+                            <i class="icon-double-right-arrow"></i>
+                        </a><!-- /.service-card__link -->
+                    </div><!-- /.service-card__content -->
+                </div><!-- /.service-card -->
+            </div><!-- /.item -->
+            <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                <div class="service-card" style="background-image: url(assets/images/services/service-1-2.jpg);">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title"><a href="service-d-city-transport.html">city transport</a></h3>
+                        <!-- /.service-card__title -->
+                        <a href="service-d-city-transport.html" class="service-card__link">
+                            <i class="icon-double-right-arrow"></i>
+                        </a><!-- /.service-card__link -->
+                    </div><!-- /.service-card__content -->
+                </div><!-- /.service-card -->
+            </div><!-- /.item -->
+            <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                <div class="service-card" style="background-image: url(assets/images/services/service-1-3.jpg);">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title"><a href="service-d-business-tour.html">business tour</a></h3>
+                        <!-- /.service-card__title -->
+                        <a href="service-d-business-tour.html" class="service-card__link">
+                            <i class="icon-double-right-arrow"></i>
+                        </a><!-- /.service-card__link -->
+                    </div><!-- /.service-card__content -->
+                </div><!-- /.service-card -->
+            </div><!-- /.item -->
+            <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                <div class="service-card" style="background-image: url(assets/images/services/service-1-4.jpg);">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title"><a href="service-d-shuttle-service.html">shuttle service</a>
+                        </h3><!-- /.service-card__title -->
+                        <a href="service-d-shuttle-service.html" class="service-card__link">
+                            <i class="icon-double-right-arrow"></i>
+                        </a><!-- /.service-card__link -->
+                    </div><!-- /.service-card__content -->
+                </div><!-- /.service-card -->
+            </div><!-- /.item -->
+            <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                <div class="service-card" style="background-image: url(assets/images/services/service-1-5.jpg);">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title"><a href="service-d-airport-transport.html">airport transport</a>
+                        </h3><!-- /.service-card__title -->
+                        <a href="service-d-airport-transport.html" class="service-card__link">
+                            <i class="icon-double-right-arrow"></i>
+                        </a><!-- /.service-card__link -->
+                    </div><!-- /.service-card__content -->
+                </div><!-- /.service-card -->
+            </div><!-- /.item -->
+            <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                <div class="service-card" style="background-image: url(assets/images/services/service-1-6.jpg);">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title"><a href="service-d-holiday-tour.html">Holiday tour</a></h3>
+                        <!-- /.service-card__title -->
+                        <a href="service-d-holiday-tour.html" class="service-card__link">
+                            <i class="icon-double-right-arrow"></i>
+                        </a><!-- /.service-card__link -->
+                    </div><!-- /.service-card__content -->
+                </div><!-- /.service-card -->
+            </div><!-- /.item -->
+        </div><!-- /.services-three__carousel -->
+    </div><!-- /.services-three__carousel-wrapper -->
+    <section class="emergency-service-one">
+    <div class="container">
+        <div class="emergency-service-one__inner">
+            <div class="emergency-service-one__inner__bg" style="background-image: url(assets/images/shapes/emergency-service-bg-1-1.png);"></div>
+            <!-- /.emergency-service-one__inner__bg -->
+            <div class="emergency-service-one__image">
+                <div class="emergency-service-one__image__inner" style="background-image: url(assets/images/resources/emergency-service-1-1.jpg);">   
+                </div><!-- /.emergency-service-one__image__inner -->
+                <img src="assets/images/resources/emergency-service-car-1-1.png" alt="car" class="emergency-service-one__image__car">
+                <div class="emergency-service-one__image__box"></div><!-- /.emergency-service-one__image__box -->
+            </div><!-- /.emergency-service-one__image -->
+            <div class="emergency-service-one__content">
+                <h3 class="emergency-service-one__title">need any emergency service? </h3><!-- /.emergency-service-one__title -->
+                <h3 class="emergency-service-one__number">
+                    call us <a href="tel:+918735944745">+91 8735944745</a>
+                </h3><!-- /.emergency-service-one__number -->
+            </div><!-- /.emergency-service-one__content -->
+            <div class="emergency-service-one__shape"></div><!-- /.emergency-service-one__shape -->
+        </div><!-- /.emergency-service-one__inner -->
+    </div><!-- /.container -->
+</section><!-- /.emergency-service-one -->
+    <img src="assets/images/shapes/services-shape-3-1.png" alt="shape" class="services-three__shape">
+</section><!-- /.services-three -->
+
+<section class="work-process-one section-space" id="work-process" style="padding-bottom: unset;">
+    <div class="container">
+        <div class="work-process-one__inner">
+            <div class="sec-title sec-title--center">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">our working process</h6><!-- /.sec-title__tagline -->
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">Our Basic Work Process</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+            <div class="row gutter-y-40">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="work-process-one__item">
+                        <div class="work-process-one__item__image">
+                            <div class="work-process-one__item__image__inner">
+                                <img src="assets/images/work-process/work-process-1-1.png" alt="work-process">
+                                <div class="work-process-one__item__number"></div>
+                                <!-- /.work-process-one__item__number -->
+                            </div><!-- /.work-process-one__item__image__inner -->
+                        </div><!-- /.work-process-one__item__image -->
+                        <h3 class="work-process-one__item__title">searching taxi</h3>
+                        <!-- /.work-process-one__item__title -->
+                    </div><!-- /.work-process-one__item -->
+                </div><!-- /.col-lg-4 col-sm-6 -->
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                    <div class="work-process-one__item work-process-one__item--center">
+                        <div class="work-process-one__item__image">
+                            <div class="work-process-one__item__image__inner">
+                                <img src="assets/images/work-process/work-process-1-2.png" alt="work-process">
+                                <div class="work-process-one__item__number"></div>
+                                <!-- /.work-process-one__item__number -->
+                            </div><!-- /.work-process-one__item__image__inner -->
+                        </div><!-- /.work-process-one__item__image -->
+                        <h3 class="work-process-one__item__title">book a taxi</h3>
+                        <!-- /.work-process-one__item__title -->
+                    </div><!-- /.work-process-one__item -->
+                </div><!-- /.col-lg-4 col-sm-6 -->
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                    <div class="work-process-one__item">
+                        <div class="work-process-one__item__image">
+                            <div class="work-process-one__item__image__inner">
+                                <img src="assets/images/work-process/work-process-1-3.png" alt="work-process">
+                                <div class="work-process-one__item__number"></div>
+                                <!-- /.work-process-one__item__number -->
+                            </div><!-- /.work-process-one__item__image__inner -->
+                        </div><!-- /.work-process-one__item__image -->
+                        <h3 class="work-process-one__item__title">arrive safely</h3>
+                        <!-- /.work-process-one__item__title -->
+                    </div><!-- /.work-process-one__item -->
+                </div><!-- /.col-lg-4 col-sm-6 -->
+            </div><!-- /.row gutter-y-40 -->
+        </div><!-- /.work-process-one__inner -->
+    </div><!-- /.container -->
+</section><!-- /.work-process-one section-space -->
+
+<section class="why-choose-two section-space-top">
+    <div class="container">
+        <div class="sec-title sec-title--center">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">why choose us</h6><!-- /.sec-title__tagline -->
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">We make sure that your every <br> trip is comfortable</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+        <div class="why-choose-two__content">
+            <div class="why-choose-two__content__bg">
+                <div class="why-choose-two__content__bg__inner" style="background-image: url(assets/images/shapes/why-choose-content-bg-2-1.png);"></div>
+            </div><!-- /.why-choose-two__content__bg -->
+            <div class="why-choose-two__content__inner">
+                <div class="why-choose-two__row row">
+                    <div class="col-lg-4 col-sm-6 why-choose-two__col-1 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="why-choose-two__item">
+                            <div class="why-choose-two__item__icon">
+                                <i class="icon-car"></i>
+                            </div><!-- /.why-choose-two__item__icon -->
+                            <h3 class="why-choose-two__item__title">Favorite Car <br> Selection</h3>
+                            <!-- /.why-choose-two__item__title -->
+                        </div><!-- /.why-choose-two__item -->
+                    </div><!-- /.col-lg-4 col-sm-6 -->
+                    <div class="col-lg-4 col-sm-6 why-choose-two__col-2 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="why-choose-two__item">
+                            <div class="why-choose-two__item__icon">
+                                <i class="icon-clock-1"></i>
+                            </div><!-- /.why-choose-two__item__icon -->
+                            <h3 class="why-choose-two__item__title">24x7 Customer <br> Support</h3>
+                            <!-- /.why-choose-two__item__title -->
+                        </div><!-- /.why-choose-two__item -->
+                    </div><!-- /.col-lg-4 col-sm-6 -->
+                    <div class="col-lg-4 col-sm-6 why-choose-two__col-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <div class="why-choose-two__item">
+                            <div class="why-choose-two__item__icon">
+                                <i class="icon-stopwatch"></i>
+                            </div><!-- /.why-choose-two__item__icon -->
+                            <h3 class="why-choose-two__item__title">Fast Car Delivery <br> Service</h3>
+                            <!-- /.why-choose-two__item__title -->
+                        </div><!-- /.why-choose-two__item -->
+                    </div><!-- /.col-lg-4 col-sm-6 -->
+                    <div class="col-lg-4 col-sm-6 why-choose-two__col-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="why-choose-two__item">
+                            <div class="why-choose-two__item__icon">
+                                <i class="icon-seat-belt-1"></i>
+                            </div><!-- /.why-choose-two__item__icon -->
+                            <h3 class="why-choose-two__item__title">High Safety </h3>
+                            <!-- /.why-choose-two__item__title -->
+                        </div><!-- /.why-choose-two__item -->
+                    </div><!-- /.col-lg-4 col-sm-6 -->
+                    <div class="col-lg-4 col-sm-6 why-choose-two__col-5 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="why-choose-two__item">
+                            <div class="why-choose-two__item__icon">
+                                <i class="icon-price-tag-1"></i>
+                            </div><!-- /.why-choose-two__item__icon -->
+                            <h3 class="why-choose-two__item__title">Fixed Price & Bonus <br> System</h3>
+                            <!-- /.why-choose-two__item__title -->
+                        </div><!-- /.why-choose-two__item -->
+                    </div><!-- /.col-lg-4 col-sm-6 -->
+                    <div class="col-lg-4 col-sm-6 why-choose-two__col-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <div class="why-choose-two__item">
+                            <div class="why-choose-two__item__icon">
+                                <i class="icon-driver-1"></i>
+                            </div><!-- /.why-choose-two__item__icon -->
+                            <h3 class="why-choose-two__item__title">Professional Car <br> Drivers</h3>
+                            <!-- /.why-choose-two__item__title -->
+                        </div><!-- /.why-choose-two__item -->
+                    </div><!-- /.col-lg-4 col-sm-6 -->
+                </div><!-- /.why-choose-two__row row -->
+                <div class="why-choose-two__info wow fadeInUp" data-wow-duration="1500ms">
+                    <div class="why-choose-two__info__image">
+                        <img src="assets/images/resources/emergency-service-car-1-1.png" alt="why-choose">
+                    </div><!-- /.why-choose-two__info__image -->
+                    <div class="emargency-call">
+    <div class="emargency-call__image">
+        <img src="assets/images/resources/emargency-call-1-1.png" alt="girl">
+        <div class="emargency-call__icon">
+            <i class="icon-telephone-call"></i>
+        </div><!-- /.emargency-call__icon -->
+    </div><!-- /.emargency-call__image -->
+    <div class="emargency-call__content">
+        <h4 class="emargency-call__title">emargency call us</h4><!-- /.emargency-call__title -->
+        <a href="tel:+918735944745" class="emargency-call__number">+91 8735944745</a><!-- /.emargency-call__number -->
+    </div><!-- /.emargency-call__content -->
+</div><!-- /.emargency-call -->
+                </div><!-- /.why-choose-two__info -->
+            </div><!-- /.why-choose-two__content__inner -->
+            <div class="why-choose-two__shape"></div><!-- /.why-choose-two__shape -->
+            <div class="why-choose-two__box"></div><!-- /.why-choose-two__box -->
+        </div><!-- /.why-choose-two__content -->
+    </div><!-- /.container -->
+    <div class="why-choose-two__right-bg" style="background-image: url(assets/images/why-choose/why-choose-2-1.jpg);"></div><!-- /.why-choose-two__right-bg -->
+</section><!-- /.why-choose-two section-space-top -->
+
+<section class="taxi-rates-two section-space" id="taxi-rates">
+    <div class="taxi-rates-two__bg" style="background-image: url(assets/images/shapes/taxi-rates-bg-2-1.png);"></div>
+    <!-- /.taxi-rates-two__bg -->
+    <div class="container">
+        <div class="taxi-rates-two__top">
+            <div class="row gutter-y-50 align-items-center">
+                <div class="col-lg-8">
+                    <div class="sec-title @@extraClassName">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">our taxi rates</h6><!-- /.sec-title__tagline -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">Our Flexible Taxi <br> Rates</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+                </div><!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    <div class="taxi-rates-two__custome-navs"></div><!-- /.taxi-rates-two__custom-navs -->
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row gutter-y-40 -->
+        </div><!-- /.taxi-rates-two__top -->
+        <div class="taxi-rates-two__carousel taxiz-owl__carousel taxiz-owl__carousel--basic-nav owl-carousel owl-theme"
+            data-owl-options='{
+            "items": 1,
+            "margin": 0,
+            "loop": true,
+            "smartSpeed": 700,
+            "navContainer": ".taxi-rates-two__custome-navs",
+            "nav": true,
+            "dots": false,
+            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+            "autoplay": true,
+            "responsive": {
+                "0": {
+                    "items": 1
+                },
+                "576": {
+                    "items": 1
+                },
+                "768": {
+                    "items": 2
+                },
+                "992": {
+                    "items": 2
+                },
+                "1200": {
+                    "items": 3
+                },
+                "1400": {
+                    "items": 3
+                },
+                "1600": {
+                    "items": 3
+                }
+            }
+        }'>
+            <div class="item">
+                <div class="taxi-card">
+    <div class="taxi-card__background">
+        <div class="taxi-card__background__inner" style="background-image: url(assets/images/shapes/taxi-card-bg-2-1.png);"></div>
+    </div><!-- /.taxi-card__background -->
+    <div class="taxi-card__inner">
+        <div class="taxi-card__image">
+            <img src="assets/images/taxi/suzuki-ertiga.png" alt="Santa Fe" style="height: 133px;">
+            <h3 class="taxi-card__price">starting ₹12.00</h3><!-- /.taxi-card__price -->
+        </div><!-- /.taxi-card__image -->
+        <div class="taxi-card__content">
+            <h3 class="taxi-card__title">Maruti Suzuki Ertiga</h3><!-- /.taxi-card__title -->
+            <p class="taxi-card__company" style="font-size: 13px;height: 73.08px;">Maruti Suzuki Ertiga is a MUV car. smart hybrid model-VXI and 1.5L Engine Option.</p><!-- /.taxi-card__company -->
+            <ul class="taxi-card__list list-unstyled">
+                <li>
+                    <span>charge / Kilo</span>
+                    <span>₹12</span>
+                </li>
+                <li>
+                    <span>passengers seat</span>
+                    <span>5 Seat</span>
+                </li>
+            </ul><!-- /.taxi-card__list -->
+            <a href="taxi-booking.html" class="taxiz-btn taxiz-btn--border">
+                <span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                <span>book now</span>
+            </a><!-- /.taxiz-btn -->
+        </div><!-- /.taxi-card__content -->
+    </div><!-- /.taxi-card__inner -->
+</div><!-- /.taxi-card -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="taxi-card">
+    <div class="taxi-card__background">
+        <div class="taxi-card__background__inner" style="background-image: url(assets/images/shapes/taxi-card-bg-2-1.png);"></div>
+    </div><!-- /.taxi-card__background -->
+    <div class="taxi-card__inner">
+        <div class="taxi-card__image">
+            <img src="assets/images/taxi/dzire.png" alt="Mazda3" style="height: 133px;">
+            <h3 class="taxi-card__price">starting ₹12.00</h3><!-- /.taxi-card__price -->
+        </div><!-- /.taxi-card__image -->
+        <div class="taxi-card__content">
+            <h3 class="taxi-card__title">Maruti Suzuki Swift Dzire</h3><!-- /.taxi-card__title -->
+            <p class="taxi-card__company" style="font-size: 13px;height: 73.08px;">Dzire is available in 6 existing colors and 4 models. LXI, VXI, ZXI and ZXI+ with advanced K-Series Dualjet, Dual VVT Engine.</p><!-- /.taxi-card__company -->
+            <ul class="taxi-card__list list-unstyled">
+                <li>
+                    <span>charge / Kilo</span>
+                    <span>₹12</span>
+                </li>
+                <li>
+                    <span>passengers seat</span>
+                    <span>04 Seat</span>
+                </li>
+            </ul><!-- /.taxi-card__list -->
+            <a href="taxi-booking.html" class="taxiz-btn taxiz-btn--border">
+                <span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                <span>book now</span>
+            </a><!-- /.taxiz-btn -->
+        </div><!-- /.taxi-card__content -->
+    </div><!-- /.taxi-card__inner -->
+</div><!-- /.taxi-card -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="taxi-card">
+    <div class="taxi-card__background">
+        <div class="taxi-card__background__inner" style="background-image: url(assets/images/shapes/taxi-card-bg-2-1.png);"></div>
+    </div><!-- /.taxi-card__background -->
+    <div class="taxi-card__inner">
+        <div class="taxi-card__image">
+            <img src="assets/images/taxi/toyota-innova-crysta.png" alt="Silverado" style="height: 133px;">
+            <h3 class="taxi-card__price">starting ₹12.00</h3><!-- /.taxi-card__price -->
+        </div><!-- /.taxi-card__image -->
+        <div class="taxi-card__content">
+            <h3 class="taxi-card__title">Toyota Innova Crysta</h3><!-- /.taxi-card__title -->
+            <p class="taxi-card__company" style="font-size: 13px;height: 73.08px;">Toyota Innova Crysta is a MUV car that have 5 colors and 7 variants. The elegant driver dashboard is the control center of the New Innova Crysta.</p><!-- /.taxi-card__company -->
+            <ul class="taxi-card__list list-unstyled">
+                <li>
+                    <span>charge / Kilo</span>
+                    <span>₹12</span>
+                </li>
+                <li>
+                    <span>passengers seat</span>
+                    <span>06 Seat</span>
+                </li>
+            </ul><!-- /.taxi-card__list -->
+            <a href="taxi-booking.html" class="taxiz-btn taxiz-btn--border">
+                <span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                <span>book now</span>
+            </a><!-- /.taxiz-btn -->
+        </div><!-- /.taxi-card__content -->
+    </div><!-- /.taxi-card__inner -->
+</div><!-- /.taxi-card -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="taxi-card">
+    <div class="taxi-card__background">
+        <div class="taxi-card__background__inner" style="background-image: url(assets/images/shapes/taxi-card-bg-2-1.png);"></div>
+    </div><!-- /.taxi-card__background -->
+    <div class="taxi-card__inner">
+        <div class="taxi-card__image">
+            <img src="assets/images/taxi/urbania-png.png" alt="Santa Fe" style="height: 133px;">
+            <h3 class="taxi-card__price">starting ₹12.00</h3><!-- /.taxi-card__price -->
+        </div><!-- /.taxi-card__image -->
+        <div class="taxi-card__content">
+            <h3 class="taxi-card__title">Urbania Tempo Traveller</h3><!-- /.taxi-card__title -->
+            <p class="taxi-card__company" style="font-size: 13px;height: 73.08px;">Manufactured by Force Motors, known for top-quality commercial vehicles, this model offers a stylish, safe, and comfortable travel experience.</p><!-- /.taxi-card__company -->
+            <ul class="taxi-card__list list-unstyled">
+                <li>
+                    <span>charge / Kilo</span>
+                    <span>₹12</span>
+                </li>
+                <li>
+                    <span>passengers seat</span>
+                    <span>12 Seat</span>
+                </li>
+            </ul><!-- /.taxi-card__list -->
+            <a href="taxi-booking.html" class="taxiz-btn taxiz-btn--border">
+                <span class="taxiz-btn__icon"><i class="icon-front-car"></i></span>
+                <span>book now</span>
+            </a><!-- /.taxiz-btn -->
+        </div><!-- /.taxi-card__content -->
+    </div><!-- /.taxi-card__inner -->
+</div><!-- /.taxi-card -->
+            </div><!-- /.item -->
+        </div><!-- /.taxi-rates-two__carousel -->
+    </div><!-- /.container -->
+    <img src="assets/images/taxi/taxi-rates-car-2-1.png" alt="car" class="taxi-rates-two__car">
+</section><!-- /.taxi-rates-two section-space -->
+
+<div class="pattern-bg" style="background-image: url(assets/images/shapes/pattern.png);"></div><!-- /.pattern-bg -->
+
+<section class="download-app-two section-space" style="display: none;">
+    <div class="download-app-two__bg" style="background-image: url(assets/images/shapes/download-app-bg-2-1.png);">
+    </div><!-- /.download-app-two__bg -->
+    <div class="container">
+        <div class="sec-title sec-title--center">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">download our app</h6><!-- /.sec-title__tagline -->
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">Get special benefits</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+        <div class="row gutter-y-40 align-items-center">
+            <div class="col-lg-4">
+                <div class="download-app-two__left">
+                    <div class="download-app-two__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="download-app-two__item__icon">
+                            <i class="icon-right"></i>
+                        </div><!-- /.download-app-two__item__icon -->
+                        <div class="download-app-two__item__content">
+                            <h3 class="download-app-two__item__title">Choice of Vehicle</h3>
+                            <!-- /.download-app-two__item__title -->
+                            <p class="download-app-two__item__text">Whether you're embarking on a cross-country adventure or exploring a new destination by car, finding</p><!-- /.download-app-two__item__text -->
+                        </div><!-- /.download-app-two__item__content -->
+                    </div><!-- /.download-app-two__item -->
+                    <div class="download-app-two__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="download-app-two__item__icon">
+                            <i class="icon-right"></i>
+                        </div><!-- /.download-app-two__item__icon -->
+                        <div class="download-app-two__item__content">
+                            <h3 class="download-app-two__item__title">More Reliable & Experienced</h3>
+                            <!-- /.download-app-two__item__title -->
+                            <p class="download-app-two__item__text">This proposal is a win-win situation which will cause a stellar paradigm shift, and produce a multi-fold</p><!-- /.download-app-two__item__text -->
+                        </div><!-- /.download-app-two__item__content -->
+                    </div><!-- /.download-app-two__item -->
+                </div><!-- /.download-app-two__left -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="download-app-two__image">
+                    <div class="download-app-two__image__inner" style="background-image: url(assets/images/resources/download-app-2-1.jpg);"></div><!-- /.download-app-two__image__inner -->
+                    <img src="assets/images/resources/download-app-taxi-mockup-2-1.png" alt="" class="download-app-two__image__mockup">
+                </div><!-- /.download-app-two__image -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="download-app-two__right">
+                    <div class="download-app-two__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="download-app-two__item__icon">
+                            <i class="icon-right"></i>
+                        </div><!-- /.download-app-two__item__icon -->
+                        <div class="download-app-two__item__content">
+                            <h3 class="download-app-two__item__title">Easy & Emergency Solutions</h3>
+                            <!-- /.download-app-two__item__title -->
+                            <p class="download-app-two__item__text">We don't need to boil the ocean here closing these latest prospects is like putting socks on an octopus</p><!-- /.download-app-two__item__text -->
+                        </div><!-- /.download-app-two__item__content -->
+                    </div><!-- /.download-app-two__item -->
+                    <div class="download-app-two__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="download-app-two__item__icon">
+                            <i class="icon-right"></i>
+                        </div><!-- /.download-app-two__item__icon -->
+                        <div class="download-app-two__item__content">
+                            <h3 class="download-app-two__item__title">Getting Affordable price</h3>
+                            <!-- /.download-app-two__item__title -->
+                            <p class="download-app-two__item__text">My grasp on reality right now is tenuous. Synergestic actionables onward and upward, productize deliverables</p><!-- /.download-app-two__item__text -->
+                        </div><!-- /.download-app-two__item__content -->
+                    </div><!-- /.download-app-two__item -->
+                </div><!-- /.download-app-two__right -->
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row gutter-y-40 -->
+    </div><!-- /.container -->
+    <img src="assets/images/shapes/download-app-shape-2-1.png" alt="shape" class="download-app-two__shape">
+</section><!-- /.download-app-two section-space -->
+
+<section class="testimonials-three section-space-top" id="testimonials" style="display: none;">
+    <div class="testimonials-three__bg" style="background-image: url(assets/images/shapes/testimonials-bg-3-1.png);"></div><!-- /.testimonials-three__bg -->
+    <div class="container">
+        <div class="testimonials-three__top">
+            <div class="row gutter-y-50 align-items-center">
+                <div class="col-lg-8">
+                    <div class="sec-title @@extraClassName">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">our testimonial</h6><!-- /.sec-title__tagline -->
+	</div><!-- /.sec-title__top -->
+	<h3 class="sec-title__title">peoples talk about <br> taxiz service</h3><!-- /.sec-title__title -->
+</div><!-- /.sec-title -->
+                </div><!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    <div class="testimonials-three__custome-navs"></div><!-- /.testimonials-three__custom-navs -->
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row gutter-y-40 -->
+        </div><!-- /.testimonials-three__top -->
+        <div class="testimonials-three__carousel taxiz-owl__carousel taxiz-owl__carousel--with-shadow owl-theme owl-carousel" data-owl-options='{
+            "items": 1,
+            "margin": 30,
+            "smartSpeed": 700,
+            "loop": true,
+            "autoplay": 6000,
+            "nav": true,
+            "navContainer": ".testimonials-three__custome-navs",
+            "dots": false,
+            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+            "responsive":{
+                "0":{
+                    "items": 1,
+                    "margin": 10
+                },
+                "992":{
+                    "items": 2,
+                    "margin": 30
+                },
+                "1200":{
+                    "items": 3,
+                    "margin": 30
+                }
+            }
+            }'>
+            <div class="item">
+                <div class="testimonial-card-three @@extraClassName">
+    <div class="testimonial-card-three__inner">
+        <div class="testimonial-card-three__top">
+            <div class="testimonial-card-three__icon">
+                <i class="icon-quote-2"></i>
+            </div><!-- /.testimonial-card-three__icon -->
+            <div class="taxiz-ratings">
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+</div><!-- /.product-ratings -->
+        </div><!-- /.testimonial-card-three__top -->
+        <p class="testimonial-card-three__quote">car service Company also impressed us with their transparency regarding costs.</p><!-- /.testimonial-card-three__quote -->
+        <div class="testimonial-card-three__identity">
+            <div class="testimonial-card-three__identity__bg">
+                <div class="testimonial-card-three__identity__bg__inner"
+                    style="background-image: url(assets/images/shapes/testimonial-shape-bg-3-1.png);"></div>
+            </div><!-- /.testimonial-card-three__identity__bg -->
+            <img src="assets/images/testimonials/testimonial-3-1.jpg" alt="Judith White" class="testimonial-card-three__image">
+            <div class="testimonial-card-three__identity__content">
+                <h4 class="testimonial-card-three__name">Judith White</h4><!-- /.testimonial-card-three__name -->
+                <p class="testimonial-card-three__designation">managing director</p>
+                <!-- /.testimonial-card-three__designation -->
+            </div><!-- /.testimonial-card-three__identity__content -->
+        </div><!-- /.testimonial-card-three__identity -->
+    </div><!-- /.testimonial-card-three__inner -->
+    <img src="assets/images/shapes/testimonial-shape-3-1.png" alt="shape" class="testimonial-card-three__shape">
+</div><!-- /.testimonial-card-three -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="testimonial-card-three @@extraClassName">
+    <div class="testimonial-card-three__inner">
+        <div class="testimonial-card-three__top">
+            <div class="testimonial-card-three__icon">
+                <i class="icon-quote-2"></i>
+            </div><!-- /.testimonial-card-three__icon -->
+            <div class="taxiz-ratings">
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+</div><!-- /.product-ratings -->
+        </div><!-- /.testimonial-card-three__top -->
+        <p class="testimonial-card-three__quote">Deploy encourage & support business growth. Everyone thinks the soup tastes.</p><!-- /.testimonial-card-three__quote -->
+        <div class="testimonial-card-three__identity">
+            <div class="testimonial-card-three__identity__bg">
+                <div class="testimonial-card-three__identity__bg__inner"
+                    style="background-image: url(assets/images/shapes/testimonial-shape-bg-3-1.png);"></div>
+            </div><!-- /.testimonial-card-three__identity__bg -->
+            <img src="assets/images/testimonials/testimonial-3-2.jpg" alt="Mike Hardson" class="testimonial-card-three__image">
+            <div class="testimonial-card-three__identity__content">
+                <h4 class="testimonial-card-three__name">Mike Hardson</h4><!-- /.testimonial-card-three__name -->
+                <p class="testimonial-card-three__designation">managing director</p>
+                <!-- /.testimonial-card-three__designation -->
+            </div><!-- /.testimonial-card-three__identity__content -->
+        </div><!-- /.testimonial-card-three__identity -->
+    </div><!-- /.testimonial-card-three__inner -->
+    <img src="assets/images/shapes/testimonial-shape-3-1.png" alt="shape" class="testimonial-card-three__shape">
+</div><!-- /.testimonial-card-three -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="testimonial-card-three @@extraClassName">
+    <div class="testimonial-card-three__inner">
+        <div class="testimonial-card-three__top">
+            <div class="testimonial-card-three__icon">
+                <i class="icon-quote-2"></i>
+            </div><!-- /.testimonial-card-three__icon -->
+            <div class="taxiz-ratings">
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+    <span class="taxiz-ratings__icon">
+        <i class="icon-star"></i>
+    </span><!-- /.taxiz-ratings__icon -->
+</div><!-- /.product-ratings -->
+        </div><!-- /.testimonial-card-three__top -->
+        <p class="testimonial-card-three__quote">Churning anomalies we don't want to boil the ocean hit the ground running.</p><!-- /.testimonial-card-three__quote -->
+        <div class="testimonial-card-three__identity">
+            <div class="testimonial-card-three__identity__bg">
+                <div class="testimonial-card-three__identity__bg__inner"
+                    style="background-image: url(assets/images/shapes/testimonial-shape-bg-3-1.png);"></div>
+            </div><!-- /.testimonial-card-three__identity__bg -->
+            <img src="assets/images/testimonials/testimonial-3-3.jpg" alt="Michael G. Ware" class="testimonial-card-three__image">
+            <div class="testimonial-card-three__identity__content">
+                <h4 class="testimonial-card-three__name">Michael G. Ware</h4><!-- /.testimonial-card-three__name -->
+                <p class="testimonial-card-three__designation">managing director</p>
+                <!-- /.testimonial-card-three__designation -->
+            </div><!-- /.testimonial-card-three__identity__content -->
+        </div><!-- /.testimonial-card-three__identity -->
+    </div><!-- /.testimonial-card-three__inner -->
+    <img src="assets/images/shapes/testimonial-shape-3-1.png" alt="shape" class="testimonial-card-three__shape">
+</div><!-- /.testimonial-card-three -->
+            </div><!-- /.item -->
+        </div><!-- /.testimonials-three__carousel -->
+    </div><!-- /.container -->
+</section><!-- /.testimonials-three section-space-top -->
+
+<section class="blog-two section-space" id="tourPackage">
+    <div class="container">
+        <div class="sec-title sec-title--center">
+	<div class="sec-title__top">
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+		<h6 class="sec-title__tagline">EXPLORE THE BEST TOUR PACKAGES</h6><!-- /.sec-title__tagline -->
+		<div class="sec-title__shape"></div><!-- /.sec-title__shape -->
+	</div><!-- /.sec-title__top -->
+	<h5 class="sec-title__title">A Remarkable and Famous Destinations!! </h5><!-- /.sec-title__title -->
+        <p>These packages offer a blend of spirituality, history, and cultural experiences, ensuring an unforgettable travel experience.</p>
+</div><!-- /.sec-title -->
+        <div class="row gutter-y-30">
+            <div class="col-md-6 col-lg-4">
+                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
+    <div class="blog-card__image">
+        <img src="assets/images/gallery/dwarka.jpg" alt="dwarka" style="height: 247.5px;">
+        <a href="#" class="blog-card__image__link"><span class="sr-only">cupidatat nonproident, sunt in culpa qui officia deserunt</span></a><!-- /.blog-card__image__link -->
+        <div class="blog-card__date">
+            <span class="blog-card__date__day">Dwarka Trip</span>
+        </div>
+    </div><!-- /.blog-card__image -->
+</div><!-- /.blog-card -->
+            </div><!-- /.col-md-6 col-lg-4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+    <div class="blog-card__image">
+        <img src="assets/images/gallery/somnath.jpg" alt="somnath">
+        <a href="#" class="blog-card__image__link"><span class="sr-only">Big Data. Are There Any Leftovers In The Kitchen At End</span></a><!-- /.blog-card__image__link -->
+        <div class="blog-card__date">
+            <span class="blog-card__date__day">Somnath Trip</span>
+        </div>
+    </div><!-- /.blog-card__image -->
+</div><!-- /.blog-card -->
+            </div><!-- /.col-md-6 col-lg-4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
+    <div class="blog-card__image">
+        <img src="assets/images/gallery/laxmi-vilas-palace.jpg" alt="Vadodara">
+        <a href="#" class="blog-card__image__link"><span class="sr-only">A Simple Lift And Shift Job Going Forward. Price Point Blue</span></a><!-- /.blog-card__image__link -->
+        <div class="blog-card__date">
+            <span class="blog-card__date__day">Vadodara Trip</span>
+        </div>
+    </div><!-- /.blog-card__image -->
+</div><!-- /.blog-card -->
+            </div><!-- /.col-md-6 col-lg-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.blog-two section-space -->
+
+
+<footer class="main-footer">
+	<div class="main-footer__pattern" style="background-image: url(assets/images/shapes/pattern.png);"></div>
+	<!-- /.main-footer__pattern -->
+	<div class="main-footer__inner">
+		<div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+		<!-- /.main-footer__bg -->
+		<div class="main-footer__top">
+			<div class="container">
+				<div class="row gutter-y-40">
+					<div class="col-xl-3 col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+						<div class="footer-widget footer-widget--about">
+							<a href="index.html" class="footer-widget__logo logo-retina">
+								<img src="assets/images/UVCab.png" width="175" alt="Taxiz HTML Template">
+							</a>
+							<!-- /.footer-widget__about-text -->
+							<div class="footer-widget__call">
+								<span class="footer-widget__call__icon">
+									<i class="icon-telephone-call"></i>
+								</span><!-- /.footer-widget__call__icon -->
+								<div class="footer-widget__call__content">
+									<h4 class="footer-widget__call__title">emargency call us</h4>
+									<!-- /.footer-widget__call__title -->
+									<a href="tel:+918735944745" class="footer-widget__call__number">+91 8735944745</a>
+									<!-- /.footer-widget__call__number -->
+								</div><!-- /.footer-widget__call__content -->
+							</div><!-- /.footer-widget__call -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-xl-4 col-lg-6 -->
+					<div class="col-xl-3 col-lg-3 col-md-4 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="100ms">
+						<div class="footer-widget footer-widget--links">
+							<h2 class="footer-widget__title">Best Routes</h2><!-- /.footer-widget__title -->
+							<ul class="list-unstyled footer-widget__links">
+								<li><a href="#">Jamnagar to Rajkot Airport</a></li>
+								<li><a href="#">Jamnagar to Ahmedabad Airport</a></li>
+								<li><a href="#">Jamnagar to Dwarka</a></li>
+								<li><a href="#">Rajkot to Jamnagar</a></li>
+								<li><a href="#">Ahmedabad to Jamnagar</a></li>
+							</ul><!-- /.list-unstyled footer-widget__links -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-xl-2 col-lg-3 col-md-4 -->
+					<div class="col-xl-2 col-lg-3 col-md-4 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="200ms">
+						<div class="footer-widget footer-widget--links">
+							<h2 class="footer-widget__title">Quick link</h2><!-- /.footer-widget__title -->
+							<ul class="list-unstyled footer-widget__links">
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="taxi.html">Taxi Services</a></li>
+								<li><a href="taxi-booking.html">Booking Taxi</a></li>
+								<li><a href="driver.html">Our Driver</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul><!-- /.list-unstyled footer-widget__links -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-xl-2 col-lg-3 col-md-4 -->
+					<div class="col-xl-4 col-lg-5 col-md-4 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="300ms">
+						<div class="footer-widget footer-widget--contact">
+							<h2 class="footer-widget__title">office address</h2><!-- /.footer-widget__title -->
+							<address class="footer-widget__address">Hirji Mistri Road, Opp Kotak Mahindra Bank, Makwana Bilding Off no.1</address>
+							<ul class="list-unstyled footer-widget__info">
+								<li>
+									<span class="footer-widget__info__icon">
+										<i class="icon-paper-plane"></i>
+									</span><!-- /.footer-widget__info__icon -->
+									<a href="mailto:uvcab.info@gmail.com">uvcab.info@gmail.com</a>
+								</li>
+								<li>
+									<span class="footer-widget__info__icon">
+										<i class="icon-telephone-call"></i>
+									</span><!-- /.footer-widget__info__icon -->
+									<a href="tel:+918735944745">+91 8735944745</a>
+								</li>
+							</ul><!-- /.list-unstyled -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-xl-4 col-lg-5 col-md-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.main-footer__top -->
+		<div class="main-footer__bottom">
+			<div class="container">
+				<div class="main-footer__bottom__inner">
+					<p class="main-footer__copyright">
+						&copy; Copyright <span class="dynamic-year"></span> by Shree Hansh Technologies.
+					</p>
+					<div class="social-links">
+						<a href="https://facebook.com">
+	<i class="fab fa-facebook-f" aria-hidden="true"></i>
+	<span class="sr-only">Facebook</span>
+</a>
+<a href="https://twitter.com">
+	<i class="fab fa-twitter" aria-hidden="true"></i>
+	<span class="sr-only">Twitter</span>
+</a>
+<a href="https://linkedin.com">
+	<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+	<span class="sr-only">Linkedin</span>
+</a>
+<a href="https://youtube.com">
+	<i class="fab fa-youtube" aria-hidden="true"></i>
+	<span class="sr-only">Youtube</span>
+</a>
+					</div><!-- /.social-links -->
+				</div><!-- /.main-footer__inner -->
+			</div><!-- /.container -->
+		</div><!-- /.main-footer__bottom -->
+	</div><!-- /.main-footer__inner -->
+</footer><!-- /.main-footer -->
+
+</div><!-- /.page-wrapper -->
+
+<div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div><!-- /.mobile-nav__overlay -->
+    <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-x"></i></span>
+        <div class="logo-box logo-retina">
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="175"
+                    alt="logo" /></a>
+        </div><!-- /.logo-box -->
+        <div class="mobile-nav__container"></div><!-- /.mobile-nav__container -->
+        <ul class="mobile-nav__contact list-unstyled">
+            <li>
+                <span class="mobile-nav__contact__icon">
+                    <i class="fa fa-envelope"></i>
+                </span>
+                <a href="mailto:needhelp@taxiz.com">needhelp@taxiz.com</a>
+            </li>
+            <li>
+                <span class="mobile-nav__contact__icon">
+                    <i class="fa fa-phone-alt"></i>
+                </span>
+                <a href="tel:+918735944745">+91 8735944745</a>
+            </li>
+        </ul><!-- /.mobile-nav__contact -->
+        <div class="mobile-nav__social">
+            <a href="https://facebook.com">
+	<i class="fab fa-facebook-f" aria-hidden="true"></i>
+	<span class="sr-only">Facebook</span>
+</a>
+<a href="https://twitter.com">
+	<i class="fab fa-twitter" aria-hidden="true"></i>
+	<span class="sr-only">Twitter</span>
+</a>
+<a href="https://instagram.com">
+	<i class="fab fa-instagram" aria-hidden="true"></i>
+	<span class="sr-only">Instagram</span>
+</a>
+<a href="https://youtube.com">
+	<i class="fab fa-youtube" aria-hidden="true"></i>
+	<span class="sr-only">Youtube</span>
+</a>
+        </div><!-- /.mobile-nav__social -->
+    </div><!-- /.mobile-nav__content -->
+</div><!-- /.mobile-nav__wrapper -->
+<div class="search-popup">
+	<div class="search-popup__overlay search-toggler"></div>
+	<!-- /.search-popup__overlay -->
+	<div class="search-popup__content">
+		<form role="search" method="get" class="search-popup__form" action="#">
+			<input type="text" id="search" placeholder="Search Here..." />
+			<button type="submit" aria-label="search submit" class="taxiz-btn">
+				<i class="icon-search"></i>
+			</button>
+		</form>
+	</div>
+	<!-- /.search-popup__content -->
+</div>
+<!-- /.search-popup -->
+<aside class="sidebar-one">
+    <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
+    <div class="sidebar-one__content">
+        <span class="sidebar-one__close sidebar-btn__toggler"><i class="icon-x"></i></span>
+        <div class="sidebar-one__logo sidebar-one__item logo-retina">
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="143"
+                    alt="logo" /></a>
+        </div><!-- /.sidebar-one__logo -->
+        <div class="sidebar-one__about sidebar-one__item">
+            <p class="sidebar-one__about__text">Whether you're embarking on a cross-country adventure or  a new destination by car, finding the right There are many variations of passages</p>
+        </div><!-- /.sidebar-one__about -->
+        <div class="sidebar-one__info sidebar-one__item">
+            <h4 class="sidebar-one__title">Contact</h4>
+            <ul class="sidebar-one__info__list">
+                <li>
+                    <span class="sidebar-one__info__icon sidebar-one__info__icon--location">
+                        <i class="icon-maps-and-flags"></i>
+                    </span>
+                    <address>85 Ketch Harbour Road Bensal
+                        PA 19020</address>
+                </li>
+                <li>
+                    <span class="sidebar-one__info__icon">
+                        <i class="icon-paper-plane"></i>
+                    </span>
+                    <a href="mailto:uvcab.info@gmail.com">uvcab.info@gmail.com</a></li>
+                <li>
+                    <span class="sidebar-one__info__icon">
+                        <i class="icon-telephone-call"></i>
+                    </span>
+                    <a href="tel:+918735944745">+918735944745</a>
+                </li>
+            </ul><!-- /.sidebar-one__info__list -->
+        </div><!-- /.sidebar-one__info -->
+        <div class="sidebar-one__social social-links sidebar-one__item">
+            <a href="https://facebook.com">
+	<i class="fab fa-facebook-f" aria-hidden="true"></i>
+	<span class="sr-only">Facebook</span>
+</a>
+<a href="https://twitter.com">
+	<i class="fab fa-twitter" aria-hidden="true"></i>
+	<span class="sr-only">Twitter</span>
+</a>
+<a href="https://instagram.com">
+	<i class="fab fa-instagram" aria-hidden="true"></i>
+	<span class="sr-only">Instagram</span>
+</a>
+<a href="https://youtube.com">
+	<i class="fab fa-youtube" aria-hidden="true"></i>
+	<span class="sr-only">Youtube</span>
+</a>
+        </div><!-- /sidebar-one__social -->
+        <div class="sidebar-one__newsletter sidebar-one__item">
+            <label class="sidebar-one__title" for="sidebar-email">Newsletter</label>
+            <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
+                <input type="email" name="EMAIL" id="sidebar-email" class="sidebar-one__newsletter__input"
+                    placeholder="Email Address">
+                <button type="submit" class="sidebar-one__newsletter__btn"><span class="icon-email"
+                        aria-hidden="true"></span></button>
+            </form>
+            <div class="mc-form__response"></div><!-- /.mc-form__response -->
+        </div><!-- /.sidebar-one__form -->
+    </div><!-- /.sidebar__content -->
+</aside><!-- /.sidebar-one -->
+
+<a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+    <span class="scroll-to-top__text">back top</span>
+    <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+</a>
+
+
+<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="assets/vendors/nouislider/nouislider.min.js"></script>
+<script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+<script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="assets/vendors/wow/wow.js"></script>
+<script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+<script src="assets/vendors/isotope/isotope.js"></script>
+<script src="assets/vendors/countdown/countdown.min.js"></script>
+<script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+<script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+<!-- template js -->
+<script src="assets/js/taxiz.js"></script>
+</body>
+
+</html>
